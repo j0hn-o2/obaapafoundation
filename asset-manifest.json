@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/obaapafoundation/static/css/main.e03ef3d1.css",
-    "main.js": "/obaapafoundation/static/js/main.dd5c0c59.js",
+    "main.css": "/obaapafoundation/static/css/main.3a4557e5.css",
+    "main.js": "/obaapafoundation/static/js/main.7559110d.js",
     "static/media/transition02.jpg": "/obaapafoundation/static/media/transition02.0ffb698fd57210260f7a.jpg",
     "static/media/transition04.jpg": "/obaapafoundation/static/media/transition04.a1cc3eed2df27ae5b99e.jpg",
     "static/media/about-bg.webp": "/obaapafoundation/static/media/about-bg.af88270b8c71863b0a91.webp",
     "static/media/women.jpg": "/obaapafoundation/static/media/women.70be72f1c74bbc178514.jpg",
     "static/media/education2.jpg": "/obaapafoundation/static/media/education2.9122b8995ab13f56e079.jpg",
     "static/media/mission1.png": "/obaapafoundation/static/media/mission1.b1abcc06e927c5d2673a.png",
-    "static/media/donate-bg.jpg": "/obaapafoundation/static/media/donate-bg.e5d76cc24a52003d1f59.jpg",
     "static/media/transition3.jpg": "/obaapafoundation/static/media/transition3.43e83bc6e67389279c57.jpg",
     "static/media/whoweare1.jpg": "/obaapafoundation/static/media/whoweare1.da3ed6d894d633fa7509.jpg",
-    "static/media/whoweare2.webp": "/obaapafoundation/static/media/whoweare2.af72e817dc178d01730d.webp",
     "static/media/logo10.jpg": "/obaapafoundation/static/media/logo10.600f8a6cfc8f5ce2c328.jpg",
     "static/media/health.jpeg": "/obaapafoundation/static/media/health.750a8ad966f5bb803ca0.jpeg",
     "index.html": "/obaapafoundation/index.html",
-    "main.e03ef3d1.css.map": "/obaapafoundation/static/css/main.e03ef3d1.css.map",
-    "main.dd5c0c59.js.map": "/obaapafoundation/static/js/main.dd5c0c59.js.map"
+    "main.3a4557e5.css.map": "/obaapafoundation/static/css/main.3a4557e5.css.map",
+    "main.7559110d.js.map": "/obaapafoundation/static/js/main.7559110d.js.map"
   },
   "entrypoints": [
-    "static/css/main.e03ef3d1.css",
-    "static/js/main.dd5c0c59.js"
+    "static/css/main.3a4557e5.css",
+    "static/js/main.7559110d.js"
   ]
 }
