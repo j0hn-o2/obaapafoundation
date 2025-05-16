@@ -1,11 +1,11 @@
 
 import React from 'react';
 import './Donate.css';
-import donateBg from './donate-bg.jpg';
+// import donateBg from './donate-bg.jpg';
 
 const Donate = () => {
   return (
-    <div className="donate-section" style={{ backgroundImage: `url(${donateBg})` }}>
+    // <div className="donate-section" style={{ backgroundImage: `url(${donateBg})` }}>
       <div className="donate-overlay">
         <div className="donate-content">
           <h2>Support Our Work</h2>
@@ -25,7 +25,7 @@ const Donate = () => {
           <button className="donate-button">Donate Now</button>
         </div>
       </div>
-    </div>
+    // </div>
   );
 };
 
