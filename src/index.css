@@ -1,0 +1,24 @@
+/* index.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  overflow-x: hidden;  /* prevent any horizontal scroll bar from creeping in */
+}
+
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+
+}
+
+code {
+  font-family:'Times New Roman', Times, serif;
+}

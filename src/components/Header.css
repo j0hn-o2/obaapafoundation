@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
+
+
+.header {
+  /* text-align: center; */
+  display: flex;               /* make header a flex container */
+  justify-content: space-between; /* push items to ends */
+  align-items: center;         
+  margin-bottom: 0; /* important */
+  /* width: 100%; */
+  /* height: 100%; */
+  box-sizing: border-box;
+  /* padding: 20px ;      */
+  box-sizing: border-box;
+  position: sticky;        /* Make it stick to the top */
+  top: 0;                  /* Stick at the top of the viewport */
+  z-index: 1000;  
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  background-color: rgb(255, 255, 255);     /* White background */
+  color: rgb(66, 66, 66);    
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional soft shadow */ 
+  padding: 0px 20px 0px 20px; /* Padding around the header */
+}
+         
+  
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem; /* default font size for all text in header */
+  line-height: 1.8; /* line height for all text in header */
+  text-align: center; /* Center the text */
+  text-transform: uppercase; /* Uppercase letters */
+  flex-grow: 1; /* Allow the nav to grow */
+  flex-shrink: 0; /* Prevent the nav from shrinking */
+  flex-basis: auto; /* Allow the nav to take its natural width */
+  margin: 50px;
+}
+
+.nav-links li a { 
+  font-size: 1rem;         /* Font size for links */
+  color: #292929; /* Text color */ 
+  text-decoration: none;
+  
+}
+
+/* .nav-links li a:hover {
+  border-bottom: 3px solid #000; 
+  padding-bottom: 4px; 
+  
+} */
+
+.nav-links li .active {
+  border-bottom: 3px solid #292929; /* Adjust color and thickness as needed */
+  padding-bottom: 4px; 
+
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  /* justify-content: center; */
+
+}
+
+
+.logo{
+  /* margin-right: 20px; */
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;  
+  margin: 10px; 
+  /* box-shadow: 0 0 5px rgba(0,0,0,0.2); */
+  /* text-decoration: none; */
+  flex-shrink: 0;
+  opacity: 0.9;
+}
+
+
+
+h1{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
+}
+
+
+

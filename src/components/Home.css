@@ -1,0 +1,293 @@
+.home {
+  text-align: center;
+  margin: 0;
+  font-size: 1.2rem; /* default font size for all text in home */
+  line-height: 2.0;
+  text-align: justify; 
+
+}
+
+
+.image-placeholder {
+  width: 100%;
+  height: 200px;
+  background-color: #ddd;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #555;
+}
+
+.image-placeholder.small {
+  height: 150px;
+}
+
+/* Mission section */
+.mission {
+  background-color: #f0f0f0;
+  padding: 30px 20px;
+  margin: 40px 0;
+}
+
+/* Programs section */
+.programs {
+  padding: 30px 0;
+}
+
+.program-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.program-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Slideshow wrapper */
+.slideshow {
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  margin: 0;  /* <- key part */
+  padding: 0;
+  display: block;
+  width: 100vw;         /* Force it to take the full screen width */
+  height: 700px;
+
+}
+
+/* Each slide image */
+.slide {
+  width: 100vw; 
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  object-fit: fill;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+/* The active slide */
+.slide.active {
+  opacity: 1;
+}
+
+
+.home h2 {
+  margin-top: 0;
+  font-size: 2.2rem;
+  margin-top: 40px; /* this is often the cause of the gap */
+}
+
+
+.home h3 {
+  font-size: 1.8rem;
+  
+}
+
+.home h4 {
+  font-size: 1.5rem;
+}
+
+.home p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.home h2,
+.home h3,
+.home h4 {
+  text-align: center;  /* or left */
+}
+
+
+.mission-section {
+
+  min-height: 600px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  position: relative;
+
+ 
+}
+
+.mission-overlay {
+  border-radius: 10px;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.55); /* Slightly darker overlay */
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 70px;
+
+}
+
+
+.mission-overlay h3 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.mission-overlay p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 800px;
+
+}
+
+
+/* Content box inside overlay */
+.mission-text-content {
+  max-width: 900px;
+  text-align: justify;
+  /* margin: auto 75px auto 75px; */
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+.mission-text-content h3 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+  border-bottom: 2px solid white;  
+  /* display: inline-block;   */
+  text-align: center;
+
+}
+
+.mission-text-content p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  /* margin-bottom: 20px; */
+}
+
+
+.program-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.who-we-are-section {
+  background-color: rgb(255, 255, 255);
+  /* margin: 60px auto;     */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 60px 40px;
+  box-sizing: border-box;
+  gap: 40px;
+  flex-wrap: nowrap;
+}
+
+.who-we-are-text {
+  /* padding: 100px; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.who-we-are-text h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: center;
+
+}
+
+.who-we-are-text p {
+  text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.who-we-are-slideshow {
+  flex: 1;
+  position: relative;
+  height: auto;
+  min-width: 0;
+  min-height: 100%;
+
+}
+
+.who-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  border-radius: 8px;
+  inset: 0;
+}
+
+.who-slide.active {
+  opacity: 1;
+  position: relative;
+}
+
+.who-we-are-text h3 {
+  font-family: 'Montserrat', sans-serif; /* or whichever you choose */
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 20px;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 8px;
+  /* border-bottom: 2px solid #000; 
+  letter-spacing: 1px; */
+}
+
+.who-we-are-text h3 {
+  position: relative;
+  display: inline-block;
+  font-size: 2.4rem;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.who-we-are-text h3::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #000;
+  left: 0;
+  bottom: -6px;
+}
+
