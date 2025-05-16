@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './Donate.css';
-import donateBg from './donate-bg1.jpeg';
+import donateBg from './donate-bg.jpeg';
 
 const Donate = () => {
   return (

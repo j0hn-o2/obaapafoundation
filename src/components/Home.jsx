@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import './Home.css';
 
-import transition1 from '../assets/transition02.jpg';
-import transition2 from '../assets/transition04.jpg';
+import transition1 from '../assets/transition1.jpg';
+import transition2 from '../assets/transition2.jpg';
 import transition3 from '../assets/transition3.jpg';
 
-import missionImg from './mission1.png';
+import missionImg from './mission.png';
 
-import educationImg from './education2.jpg';
+import educationImg from './education.jpg';
 import healthcareImg from './health.jpeg';
 import womenImg from './women.jpg';
 
-import whoWeAre1 from './hero2.jpeg';
+import whoWeAre1 from './hero.jpeg';
 
 const images = [transition1, transition2, transition3];
 
@@ -67,7 +67,7 @@ const Home = () => {
               through volunteering, donations, or partnerships—makes a real difference.
             </p>
           </div>
-          
+
           <div className="who-we-are-image-wrapper">
             <img
               src={whoWeAre1}
@@ -75,8 +75,6 @@ const Home = () => {
               className="who-we-are-image"
             />
           </div>
-
-          
         </div>
 
         <div className="mission-section" style={{ backgroundImage: `url(${missionImg})` }}>
