@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a4557e5.css",
-    "main.js": "/static/js/main.5098a6a2.js",
+    "main.css": "/static/css/main.db818e77.css",
+    "main.js": "/static/js/main.f2edf5f2.js",
     "static/media/transition02.jpg": "/static/media/transition02.0ffb698fd57210260f7a.jpg",
     "static/media/transition04.jpg": "/static/media/transition04.a1cc3eed2df27ae5b99e.jpg",
+    "static/media/donate-bg1.jpeg": "/static/media/donate-bg1.8fe6c1fe359a788980c2.jpeg",
     "static/media/about-bg.webp": "/static/media/about-bg.af88270b8c71863b0a91.webp",
+    "static/media/hero2.jpeg": "/static/media/hero2.6c8c4cfb85bff3147b0b.jpeg",
     "static/media/women.jpg": "/static/media/women.70be72f1c74bbc178514.jpg",
     "static/media/education2.jpg": "/static/media/education2.9122b8995ab13f56e079.jpg",
     "static/media/mission1.png": "/static/media/mission1.b1abcc06e927c5d2673a.png",
     "static/media/transition3.jpg": "/static/media/transition3.43e83bc6e67389279c57.jpg",
-    "static/media/whoweare1.jpg": "/static/media/whoweare1.da3ed6d894d633fa7509.jpg",
     "static/media/logo10.jpg": "/static/media/logo10.600f8a6cfc8f5ce2c328.jpg",
     "static/media/health.jpeg": "/static/media/health.750a8ad966f5bb803ca0.jpeg",
     "index.html": "/index.html",
-    "main.3a4557e5.css.map": "/static/css/main.3a4557e5.css.map",
-    "main.5098a6a2.js.map": "/static/js/main.5098a6a2.js.map"
+    "main.db818e77.css.map": "/static/css/main.db818e77.css.map",
+    "main.f2edf5f2.js.map": "/static/js/main.f2edf5f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a4557e5.css",
-    "static/js/main.5098a6a2.js"
+    "static/css/main.db818e77.css",
+    "static/js/main.f2edf5f2.js"
   ]
 }
