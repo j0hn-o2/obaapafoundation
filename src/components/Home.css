@@ -110,7 +110,7 @@
   opacity: 1;
 }
 
-.who-we-are-section {
+.our-hero-section {
   background-color: rgb(255, 255, 255);
   /* margin: 20px; */
   width: 100%;
@@ -124,31 +124,24 @@
   flex-wrap: nowrap;
 }
 
-.who-we-are-text {
+.our-hero-text {
   /* padding: 100px; */
+  margin: 90px;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  font-family: 'libre Baskerville', serif;
+
 }
 
-.who-we-are-text h3 {
-  font-size: 2rem;
-  margin-bottom: 15px;
+.our-hero-text h3 {
+
   text-align: center;
-
-}
-
-.who-we-are-text p {
-  text-align: justify;
-  font-size: 1.1rem;
-  line-height: 1.8;
-  margin-bottom: 15px;
-}
-
-
-.who-we-are-text h3 {
-  font-family: 'Montserrat', sans-serif; /* or whichever you choose */
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Montserrat', sans-serif; or whichever you choose */
   font-size: 2.4rem;
   font-weight: 600;
   color: #222;
@@ -156,11 +149,20 @@
   position: relative;
   display: inline-block;
   padding-bottom: 8px;
-  /* border-bottom: 2px solid #000; 
-  letter-spacing: 1px; */
+  
+  letter-spacing: 1px;
 }
 
-.who-we-are-text h3::after {
+.our-hero-text p {
+  text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+
+
+.our-hero-text h3::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -170,7 +172,7 @@
   bottom: -6px;
 }
 
-.who-we-are-image-wrapper {
+.hero-image-wrapper {
   flex: 1;
   /* min-width: 300px; */
   display: flex;
@@ -178,7 +180,7 @@
   align-items: stretch;
 }
 
-.who-we-are-image {
+.hero-image {
   flex: 1;
   width: 100%;
   height: 500px;
@@ -186,12 +188,6 @@
   border-radius: 8px;
   display: block;
 }
-
-/* .mission {
-  background-color: #f0f0f0;
-  padding: 30px 20px;
-  margin: 40px 0;
-} */
 
 .mission-section {
 

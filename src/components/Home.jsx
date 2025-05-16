@@ -11,7 +11,7 @@ import educationImg from './education.jpg';
 import healthcareImg from './health.jpeg';
 import womenImg from './women.jpg';
 
-import whoWeAre1 from './hero.jpeg';
+import feliciaImg from './feliciaImg.jpeg';
 
 const images = [transition1, transition2, transition3];
 
@@ -39,17 +39,36 @@ const Home = () => {
       </div>
 
       <section id="home" className="home">
-        <div className="who-we-are-section">
-          <div className="who-we-are-text">
+        <div className="our-hero-section">
+          <div className="our-hero-text">
+            <h3>Our Hero</h3>
+            <p>
+              Hon. Felicia Adjei, Member of Parliament for Kintampo South Constituency in Ghana, is
+              the visionary behind the Obaapa Felicia Adjei Foundation. Born and raised in the Brong-Ahafo
+              Region, she has committed her life to public service, especially advocating for women's
+              empowerment, education, and healthcare in rural communities. Through her personal
+              experiences and dedication, she founded the organization to uplift those in need
+              and to create sustainable change at the grassroots level.
+            </p>
+          </div>
+          <div className="hero-image-wrapper">
+            <img
+              src={feliciaImg}
+              alt="Hon. Felicia Adjei"
+              className="hero-image"
+            />
+          </div>
+        </div>
+
+          {/* <div className="who-we-are-text">
             <h3>Who We Are</h3>
-            {/* <h2>Welcome to the Obaapa Felicia Adjei Foundation</h2> */}
             <p>
               The Obaapa Felicia Adjei Foundation is a non-governmental organization (NGO) with a mission to create
               lasting positive change in the lives of vulnerable communities in Ghana. Through a range of programs
               in education, health, women empowerment, and youth development, we strive to bridge gaps and provide
               opportunities for those who need it most.
             </p>
-            {/* <br /> */}
+           
             <p>
               We believe that every child deserves quality education, every woman deserves to live with dignity
               and purpose, and every family deserves access to basic healthcare. Our foundation works directly
@@ -61,21 +80,15 @@ const Home = () => {
               school supplies, medical outreach programs, skills training, and micro-financing support. We are
               driven by compassion, equity, and the unwavering belief that true development starts with empowered people.
             </p>
-            {/* <br /> */}
+          
             <p>
               Join us as we work hand-in-hand with communities to build a brighter future. Your support—whether
               through volunteering, donations, or partnerships—makes a real difference.
             </p>
           </div>
+     */}
 
-          <div className="who-we-are-image-wrapper">
-            <img
-              src={whoWeAre1}
-              alt="Who We Are"
-              className="who-we-are-image"
-            />
-          </div>
-        </div>
+          
 
         <div className="mission-section" style={{ backgroundImage: `url(${missionImg})` }}>
           <div className="mission-overlay">
