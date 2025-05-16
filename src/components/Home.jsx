@@ -12,7 +12,7 @@ import healthcareImg from './health.jpeg';
 import womenImg from './women.jpg';
 
 import whoWeAre1 from './whoweare1.jpg';
-import whoWeAre2 from './whoweare2.webp';
+// import whoWeAre2 from './whoweare2.webp';
 
 const images = [transition1, transition2, transition3];
 
@@ -26,7 +26,7 @@ const Home = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const whoImages = [whoWeAre1, whoWeAre2];
+  const whoImages = [whoWeAre1];
   const [currentWhoImage, setCurrentWhoImage] = useState(0);
 
   useEffect(() => {

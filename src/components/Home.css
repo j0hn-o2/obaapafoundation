@@ -1,3 +1,51 @@
+@media (max-width: 768px) {
+  .who-we-are-section {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .who-we-are-text h3 {
+    font-size: 1.8rem;
+  }
+
+  .who-we-are-text p,
+  .mission-text-content p,
+  .home p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .mission-overlay {
+    padding: 40px 20px;
+  }
+
+  .mission-text-content h3 {
+    font-size: 2rem;
+  }
+
+  .program-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .program-card {
+    width: 90%;
+    max-width: 100%;
+  }
+
+  .slideshow {
+    height: 300px;
+  }
+
+  .image-placeholder {
+    height: 150px;
+  }
+
+  .image-placeholder.small {
+    height: 100px;
+  }
+}
+
 .home {
   text-align: center;
   margin: 0;
