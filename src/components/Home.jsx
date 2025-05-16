@@ -11,8 +11,7 @@ import educationImg from './education2.jpg';
 import healthcareImg from './health.jpeg';
 import womenImg from './women.jpg';
 
-import whoWeAre1 from './whoweare1.jpg';
-// import whoWeAre2 from './whoweare2.webp';
+import whoWeAre1 from './hero2.jpeg';
 
 const images = [transition1, transition2, transition3];
 
@@ -22,16 +21,6 @@ const Home = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevIndex) => (prevIndex + 1) % images.length);
-    }, 4000);
-    return () => clearInterval(interval);
-  }, []);
-
-  const whoImages = [whoWeAre1];
-  const [currentWhoImage, setCurrentWhoImage] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentWhoImage((prev) => (prev + 1) % whoImages.length);
     }, 4000);
     return () => clearInterval(interval);
   }, []);
@@ -79,16 +68,14 @@ const Home = () => {
             </p>
           </div>
           
-          <div className="who-we-are-slideshow">
-              {whoImages.map((img, index) => (
-                <img
-                  key={index}
-                  src={img}
-                  alt={`Who we are ${index + 1}`}
-                  className={`who-slide ${index === currentWhoImage ? 'active' : ''}`}
-                />
-              ))}
-            </div>
+          <div className="who-we-are-image-wrapper">
+            <img
+              src={whoWeAre1}
+              alt="Who We Are"
+              className="who-we-are-image"
+            />
+          </div>
+
           
         </div>
 

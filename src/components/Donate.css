@@ -41,25 +41,31 @@
   align-items: center;
   padding: 60px 20px;
   box-sizing: border-box;
+  /* opacity: 0.7;; */
 }
 
 .donate-content {
-  background-color: rgba(230, 230, 230, 0.85); /* light readable box */
+  background-color: rgba(255, 254, 254, 0.85); /* light readable box */
   padding: 40px;
   max-width: 800px;
   text-align: justify;
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  opacity:0.9;
 }
 
 .donate-content h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
   text-align: center;
+  color: black;
+  opacity: 1.0;
 }
 
 .donate-content p {
   font-size: 1.2rem;
   line-height: 1.8;
   margin-bottom: 20px;
+  opacity: 2.0;
+  color: black;
 }

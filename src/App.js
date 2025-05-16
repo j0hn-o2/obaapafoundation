@@ -1,33 +1,6 @@
-// import React from 'react';
-// import Header from './components/Header';
-// import Home from './components/Home';
-// import About from './components/About';
-// import Donate from './components/Donate';
-// import Footer from './components/Footer';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-      
-//     <Header />
-//       <main>
-//         <Home />
-//         <About />
-//         <Donate />
-//       </main>
-//       <Footer />
-//     </div>
-    
-//   );
-// }
-
-// export default App;
-
-
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { HashRouter } from 'react-router-dom';
+// import { HashRouter } from 'react-router-dom'; learn how to use this
 
 import './App.css';
 
