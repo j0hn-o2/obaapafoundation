@@ -8,11 +8,7 @@ const About = () => {
   return (
     <div className="about-section" style={{ backgroundImage: `url(${aboutBg})` }}>
       <div className="about-content">
-        {/* <h2>About Us</h2> */}
-        <div className="who-we-are-section">
-          <div className="who-we-are-text">
             <h3>Who We Are</h3>
-            {/* <h2>Welcome to the Obaapa Felicia Adjei Foundation</h2> */}
             <p>
               The Obaapa Felicia Adjei Foundation is a non-governmental organization (NGO) with a mission to create
               lasting positive change in the lives of vulnerable communities in Ghana. Through a range of programs
@@ -36,23 +32,7 @@ const About = () => {
               Join us as we work hand-in-hand with communities to build a brighter future. Your support—whether
               through volunteering, donations, or partnerships—makes a real difference.
             </p>
-          </div>
-        </div>
-        <p>
-          The Obaapa Felicia Adjei Foundation was established with the vision of empowering
-          vulnerable communities, especially women and children, through access to education,
-          healthcare, and opportunities for economic growth.
-        </p>
-        <p>
-          We believe in sustainable development driven by compassion, inclusion, and community
-          leadership. Through a wide range of programs and partnerships, we strive to build
-          a future where everyone has the chance to thrive.
-        </p>
-        <p>
-          The Obaapa Felicia Adjei Foundation is a non-governmental organization dedicated to
-          promoting education, health, and women empowerment across Ghana. We work closely
-          with communities to support sustainable development initiatives.
-        </p>
+      
       </div>
     </div>
   );
