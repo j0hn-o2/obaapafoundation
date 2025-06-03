@@ -302,4 +302,69 @@
   height: 150px;
 }
 
+@media (max-width: 768px) {
+  .our-hero-section {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .our-hero-text {
+    margin: 0;
+  }
+
+  .hero-image-wrapper {
+    width: 100%;
+  }
+
+  .hero-image {
+    height: 300px;
+    border-radius: 6px;
+  }
+
+  .mission-overlay {
+    padding: 30px 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .mission-text-content {
+    max-width: 100%;
+  }
+
+  .mission-text-content h3 {
+    font-size: 1.8rem;
+  }
+
+  .mission-text-content p {
+    font-size: 1rem;
+  }
+
+  .slideshow {
+    height: 250px;
+  }
+
+  .slide {
+    object-fit: cover;
+  }
+
+  .program-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .program-card {
+    width: 90%;
+    max-width: 100%;
+  }
+
+  .home h2, .home h3, .home h4 {
+    font-size: 1.5rem;
+  }
+
+  .home p {
+    font-size: 1rem;
+  }
+}
+
 

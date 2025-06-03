@@ -92,5 +92,123 @@ h1{
   font-family: 'Playfair Display', serif;
 }
 
+/* Responsive header styles for mobile */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  .header-left {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .header-left h1 {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  .logo {
+    height: 60px;
+    width: 60px;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0 0 0;
+    gap: 15px;
+    padding-left: 0;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links li a {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+  }
+
+  .nav-links li .active {
+    border-bottom: none;
+    font-weight: bold;
+  }
+}
+
+/* Hamburger button */
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+  padding: 10px;
+}
+
+/* Hide nav by default on mobile */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    width: 100%;
+  }
+
+  .nav.open {
+    display: block;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin: 10px 0 0 0;
+    padding-left: 0;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links li a {
+    display: block;
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-left {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  .logo {
+    height: 60px;
+    width: 60px;
+  }
+}
 
 
